@@ -15,13 +15,14 @@ h2 {
 }
 
 li {
-    color: slategray
+    color: slategray;
+    font-size: 17px;
+    padding: 5px 0px 0px 0px;
 }
 
 .columns {
     display: flex;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     margin: 10px auto;
     /*border: 3px solid hotpink;*/
     width: 40%;
