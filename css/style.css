@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: blanchedalmond;
 }
 
 h1 {
@@ -12,11 +13,35 @@ h2 {
     color: brown;
 }
 
+li {
+    color: slategray
+}
+
+/* unvisited link */
+a:link {
+    color: slategray;
+}
+  
+/* visited link */
+a:visited {
+    color: darkolivegreen;
+}
+  
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+  
+/* selected link */
+a:active {
+    color: blue;
+}
+
 .columns {
     display: flex;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    margin: 0 auto;
+    margin: 10px auto;
     /*border: 3px solid hotpink;*/
     width: 40%;
 }
@@ -29,5 +54,7 @@ h2 {
 }
 
 .navigation-bar {
-    border: groove;
+    border: slategray solid 2px;
+    width: 100%;
+    margin: 0 auto;
 }
