@@ -2,11 +2,12 @@ body {
     margin: 0;
     text-align: center;
     background-color: blanchedalmond;
+    font-family: Georgia;
 }
 
 h1 {
     color: darkolivegreen;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
 }
 
 h2 {
@@ -15,26 +16,6 @@ h2 {
 
 li {
     color: slategray
-}
-
-/* unvisited link */
-a:link {
-    color: slategray;
-}
-  
-/* visited link */
-a:visited {
-    color: darkolivegreen;
-}
-  
-/* mouse over link */
-a:hover {
-    color: hotpink;
-}
-  
-/* selected link */
-a:active {
-    color: blue;
 }
 
 .columns {
@@ -57,4 +38,22 @@ a:active {
     border: slategray solid 2px;
     width: 100%;
     margin: 0 auto;
+    font-size: 20px;
+}
+
+a.one:link {color: #ff0000;}
+a.one:visited {color: #0000ff;}
+a.one:hover {color: #ffcc00;}
+
+a.two:link {
+    color: slategray;
+    text-decoration: none;
+}
+a.two:visited {
+    color: slategray;
+    text-decoration: none;
+}
+a.two:hover {
+    color: #ffcc00;
+    text-decoration: none;
 }
